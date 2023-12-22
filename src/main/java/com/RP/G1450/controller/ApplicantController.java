@@ -22,7 +22,7 @@ public class ApplicantController {
     }
 
     @PutMapping
-    public  Applicant updatApplicant(@RequestBody Applicant applicant) {
+    public  Applicant updateApplicant(@RequestBody Applicant applicant) {
         return applicantService.updateApplicant(applicant);
     }
 }
